@@ -11,17 +11,30 @@ header {
     color: #f5f5f5;
 }
 
+h1{
+    padding: 5px 20px;
+}
+
 .menu-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #000000;
+}
+
+/*.menu-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 20px;
     background-color: #000000;
 }
+*/
 
 .menu1, .menu2, .menu3, .menu4 {
     align-content: center;
     background-color: #000000;
     text-align: center;
+    padding: 1vh 10vw;
 }
 
 a {
@@ -61,13 +74,13 @@ footer {
 }
 
 img{
-    height: 25vh;
-    width: 20vw;
+    height: 30%;
+    width: 35%;
 }
 
 @media (max-width: 500px) {
     .menu-container {
-        display: flex;
+        /*display: flex;*/
         flex-direction: column;
     }
 
