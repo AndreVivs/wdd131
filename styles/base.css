@@ -13,8 +13,10 @@ nav ul li {
     transition: background-color 0.3s ease;
 }
 
-nav ul :hover {
+nav a:hover {
+	text-decoration:none;
     background-color: #f0f0f0; /* Example hover effect */
+
 }
 
 main {
