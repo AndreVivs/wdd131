@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li:hover {
+    background-color: #f0f0f0; /* Example hover effect */
+}
+
+main {
+    max-width: 800px; /* Example limited width */
+    margin: 0 auto; /* Center horizontally */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Example grid layout */
+    gap: 20px; /* Spacing between cards */
+}
+
+.card {
+    /* Styles for card */
+}
