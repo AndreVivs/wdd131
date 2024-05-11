@@ -1,8 +1,3 @@
-/*$hunyadi-yellow: #f6bd60ff;
-$linen: #f7ede2ff;
-$tea-rose-red: #f5cac3ff;
-$cambridge-blue: #84a59dff;
-$light-coral: #f28482ff;*/
 
 body {
     margin: 0;
@@ -146,22 +141,17 @@ ul {
         padding: 20px;
     }
 
-    .playing {
-        grid-column: 1/5;
-        grid-row: 1/5;
-        height: 150%;
-        width: 120%;
+    .photos{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
     }
-    
-    .andy {
-        grid-column: 4/8;
-        grid-row: 5/8;
-        height: 200%;
-        width: 120%;
+
+    .playing, .andy {
+        margin: 5px 10px;
     }
 
     .section2 {
         margin: auto 30%;
     }
-    
 }
