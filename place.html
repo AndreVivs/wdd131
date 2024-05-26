@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+
+    <meta name="description" content="Country Page">
+    <meta name="author" content="Andrea Ramos Vivas">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <script src="scripts/place.js" async defer></script>
+
+</head>
+<body>
+    <header>
+        <picture>
+            <source srcset="images/hero-large.jpg" media="(min-width: 1200px)">
+            <source srcset="images/hero-medium.jpg" media="(min-width: 600px)">
+            <img src="images/hero-small.jpg" alt="Descripción de la imagen héroe" class="hero">
+        </picture>
+    </header>
+    <main>
+        <section id="weather">
+            <h2>Tiempo Actual</h2>
+            <p>Temperatura: <span id="temperature">5°C</span></p>
+            <p>Velocidad del viento: <span id="windSpeed">10 km/h</span></p>
+            <p>Sensación térmica: <span id="windChill">N/A</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> - Última modificación: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
